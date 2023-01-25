@@ -1,0 +1,32 @@
+name: some_from_all
+description: An application for daily basic needings
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  qr_code_scanner: ^1.0.1 # qr Scanner package. This package may deprecate in the future.
+  flutter_riverpod: ^2.1.1 # state management package
+  url_launcher: # required to launch links
+  shared_preferences: ^2.0.15 # required for local storage
+  font_awesome_flutter:
+  google_fonts:
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+flutter:
+
+  uses-material-design: true
+
+
+
+
